@@ -1,4 +1,6 @@
 ﻿namespace DersTekrar;
+using System;
+using System.Collections.Generic;
 
 internal class Program
 {
@@ -81,36 +83,108 @@ internal class Program
         //date.Year ya Month da olabilir. Day 'de olabilir.
 
 
-        List<string> list = new List<string>();
+        //List<string> list = new List<string>();
 
-        string alisVeris1 = "Domates";
-        string alisVeris2 = "Salatalik";
-        string alisVeris3 = "Marul";
+        //string alisVeris1 = "Domates";
+        //string alisVeris2 = "Salatalik";
+        //string alisVeris3 = "Marul";
 
-        list.Add(alisVeris1);
-        list.Add(alisVeris2);
-        list.Add(alisVeris3);
+        //list.Add(alisVeris1);
+        //list.Add(alisVeris2);
+        //list.Add(alisVeris3);
 
-        Console.WriteLine(list[0]);
+        //Console.WriteLine(list[0]);
 
-        List <int> list2 = new List<int>();
-        list2.Add(Convert.ToInt32("10"));
-        list2.Add(30);
+        //List <int> list2 = new List<int>();
+        //list2.Add(Convert.ToInt32("10"));
+        //list2.Add(30);
 
-        string[] list3 = new string[3];
-        list3[0] = alisVeris1;
-        list3[1] = alisVeris2;
-        list3[2] = alisVeris3;
+        //string[] list3 = new string[3];
+        //list3[0] = alisVeris1;
+        //list3[1] = alisVeris2;
+        //list3[2] = alisVeris3;
 
         // VAR VERI TIPI
 
         var metin = 10.20;
-       
+
         // IF BLOKLARI 
 
+        bool degisken = false;
+
+        //if (degisken != false)  //tam tersini ararken != diyoruz.
+        // {
+        //   Console.WriteLine("Değişken değeri false");
+        // }
+
+        int sayi10 = 5;
+
+        if ((sayi10 < 10 || sayi10 > 11) && sayi10 == 5)  //>= / <= / == / || // &&
+        {
+            if (sayi10 > 6)
+            {
+                Console.WriteLine("Sayi10 6'dan büyük bir rakam ");
+            }
+
+            if (sayi10 < 6)
+            {
+                Console.WriteLine("Sayi10 6'dan küçük bir rakam");
+            }
+
+            //Single if line
+            //
+
+        }
+        // For döngüleri // foreach
+
+        List<string> List3 = new List<string>();
+        List3.Add("Domates");
+        List3.Add("Patlican");
+        List3.Add("Biber");
+
+        //for (int x = 0; x < List3.Count; x++)
+        //{
+        //    Console.WriteLine(List3[x]);
+        //}
+
+        //foreach (var item in List3)
+        //{
+        //    Console.WriteLine(item);
+        //}
+        ////Domates
+        //patlican
+        //biber
 
 
+        //Switch case blogları
 
-    } 
-        
+        bool degisken2 = false;
+
+        //if(degisken2 == false)
+        //{
+        //    //buradaki işlemleri yapp
+        //}
+        //else
+        //{
+        //    //buradaki işlemleri yap
+        //}
+
+        switch (degisken) 
+        {
+            case false:
+                Console.WriteLine("Değişken false");
+                //bu işlemi yap
+                break;
+            case true:
+                Console.WriteLine("Değişken true");
+                // bu işlemi yap
+                break;
+             defualt:
+                Console.WriteLine("Değişken ne true ne de false");
+                // bu işlemi yap
+                break;
+        }
+
+    }
+
 }

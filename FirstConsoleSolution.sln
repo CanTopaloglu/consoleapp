@@ -11,7 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberGuessingGameConsoleAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAttendanceConsoleApp", "StudentAttendanceConsoleApp\StudentAttendanceConsoleApp.csproj", "{3CA4189A-BE36-4FE8-BAEE-2CD96F362922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DersTekrar", "DersTekrar\DersTekrar.csproj", "{1B0275A1-1F21-4418-AC17-9985853FB53A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DersTekrar", "DersTekrar\DersTekrar.csproj", "{1B0275A1-1F21-4418-AC17-9985853FB53A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DersPersembe", "2DersPersembe\2DersPersembe.csproj", "{146FE282-68A0-4175-9E32-BEF02E5E6940}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAttendance2ConsoleApp", "StudentAttendance2ConsoleApp\StudentAttendance2ConsoleApp.csproj", "{321F1218-DF94-416F-B728-117F240844D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerConsoleApp", "TimerConsoleApp\TimerConsoleApp.csproj", "{30F6A99C-3B5A-4C31-BC30-88054512E303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskWithTimerConsoleApp", "TaskWithTimerConsoleApp\TaskWithTimerConsoleApp.csproj", "{59AE1898-DE1C-4216-8106-55C62FFAE214}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTaskConsoleApp", "AddTaskConsoleApp\AddTaskConsoleApp.csproj", "{0FB11756-3FE7-4500-BBA1-E59BFF515378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassVeInterfaceTekrar", "ClassVeInterfaceTekrar\ClassVeInterfaceTekrar.csproj", "{88F11BA2-622E-4DD3-8765-59119533FDBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonDersTekrarPzt", "SonDersTekrarPzt\SonDersTekrarPzt.csproj", "{9E05C534-013C-4D62-9138-1CEED4F23027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppOop", "ConsoleAppOop\ConsoleAppOop.csproj", "{2F4506AE-45FA-4D95-BDF5-E80ABEAFCC41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +55,38 @@ Global
 		{1B0275A1-1F21-4418-AC17-9985853FB53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B0275A1-1F21-4418-AC17-9985853FB53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B0275A1-1F21-4418-AC17-9985853FB53A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146FE282-68A0-4175-9E32-BEF02E5E6940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146FE282-68A0-4175-9E32-BEF02E5E6940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146FE282-68A0-4175-9E32-BEF02E5E6940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146FE282-68A0-4175-9E32-BEF02E5E6940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321F1218-DF94-416F-B728-117F240844D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321F1218-DF94-416F-B728-117F240844D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321F1218-DF94-416F-B728-117F240844D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321F1218-DF94-416F-B728-117F240844D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F6A99C-3B5A-4C31-BC30-88054512E303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F6A99C-3B5A-4C31-BC30-88054512E303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F6A99C-3B5A-4C31-BC30-88054512E303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F6A99C-3B5A-4C31-BC30-88054512E303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AE1898-DE1C-4216-8106-55C62FFAE214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AE1898-DE1C-4216-8106-55C62FFAE214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AE1898-DE1C-4216-8106-55C62FFAE214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AE1898-DE1C-4216-8106-55C62FFAE214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB11756-3FE7-4500-BBA1-E59BFF515378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB11756-3FE7-4500-BBA1-E59BFF515378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB11756-3FE7-4500-BBA1-E59BFF515378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB11756-3FE7-4500-BBA1-E59BFF515378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F11BA2-622E-4DD3-8765-59119533FDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F11BA2-622E-4DD3-8765-59119533FDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F11BA2-622E-4DD3-8765-59119533FDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F11BA2-622E-4DD3-8765-59119533FDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E05C534-013C-4D62-9138-1CEED4F23027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E05C534-013C-4D62-9138-1CEED4F23027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E05C534-013C-4D62-9138-1CEED4F23027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E05C534-013C-4D62-9138-1CEED4F23027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4506AE-45FA-4D95-BDF5-E80ABEAFCC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4506AE-45FA-4D95-BDF5-E80ABEAFCC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4506AE-45FA-4D95-BDF5-E80ABEAFCC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4506AE-45FA-4D95-BDF5-E80ABEAFCC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
